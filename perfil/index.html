@@ -4,21 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perfil | Plataforma Odonto</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <ul id="menuPrincipal">
-        <li><a href="../perfil/index.html">Perfil</a></li>
-        <li><a href="../resumo/index.html">Resumos</a></li>
-        <li><a href="../curso/index.html">Cursos</a></li>
-        <li><a href="../material/index.html">Material</a></li>
-        <li><a href="../materia/index.html">Matérias</a></li>
-        <li><a href="../contato/index.html">Contato</a></li>
-    </ul>
-    <figure>
-        <img class="imgCapa" src="../images/fotoCapa.png" alt="Capa do Perfil">
-        <img class="imgPerfil" src="../images/fotoPerfil.png" alt="Foto de Perfil">
-        <h1 class="nomePerfil"><figcaption>Seu Nome</figcaption></h1>
-    </figure>
+    <nav id="navMenuPrincipal">
+        
+        <ul id="menuUrl">
+            <li><a href="../perfil/index.html">Perfil</a></li>
+            <li><a href="../resumo/index.html">Resumos</a></li>
+            <li><a href="../curso/index.html">Cursos</a></li>
+            <li><a href="../material/index.html">Material</a></li>
+            <li><a href="../materia/index.html">Matérias</a></li>
+            <li><a href="../contato/index.html">Contato</a></li>
+        </ul><!--id="menuUrl""-->
+        
+        <form action="pesquisa.php" id="menuPesquisa">
+            <input type="search" name="pesquisa" id="menuPesquisaInput" placeholder="Pesquisa">
+            <input type="submit" value="Pesquisar">
+        </form>
+    </nav>
+    <section id="sectionPerfil" class="sectionBloco">
+        <figure id="figurePerfil">
+            <img class="imgCapa" src="../images/fotoCapa.png" alt="Capa do Perfil">
+            <img class="imgPerfil" src="../images/fotoPerfil.png" alt="Foto de Perfil">
+            <h1 class="nomePerfil"><figcaption>Seu Nome</figcaption></h1>
+        </figure>
+    </section>
+
+    
 
 </body>
 </html>

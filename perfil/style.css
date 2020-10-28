@@ -1,0 +1,22 @@
+#sectionPerfil {
+    width: 900px;
+    margin-top: 70px;
+    padding: 0px;
+}
+#figurePerfil {
+    margin: 0px;
+}
+.imgCapa {
+    width: 900px;
+    height: 342px;
+    border-radius: 15px 15px 0px 0px;
+}
+.imgPerfil {
+    width: 200px;
+    position: relative;
+    top: -120px;
+}
+.nomePerfil {
+    position: relative;
+    top: -150px;
+}

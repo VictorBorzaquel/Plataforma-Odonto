@@ -1,0 +1,75 @@
+/*Padrão*/
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+:link {
+    color: #000;
+    text-decoration: none;
+}
+:visited {
+    color: #000;
+}
+h1 {
+    font-size: 32px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+body {
+    font-size: 16px;
+    margin: 0px;
+    background-color: #F2F3F5;
+}
+div {
+    margin: auto;
+}
+section {
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+}
+nav {
+    margin: auto;
+}
+footer {
+    margin: auto;
+}
+hr {
+    color: rgba(0, 0, 0, 0.3);
+}
+.imgPerfil {
+    border-radius: 100%;
+}
+.sectionBloco {
+    padding: 20px;
+    margin-top: 50px;
+    width: 500px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+/*Menu Principal*/
+#navMenuPrincipal {
+    position: fixed;
+    top: 0px;
+    background-color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    width: 100%;
+    padding: 0px;
+}
+#menuUrl {
+    display: inline-block;
+    padding: 0px;
+}
+#menuUrl li {
+    display: inline-block;
+    padding: 7px;
+    margin: 0px 1px;
+}
+#menuPesquisa {
+    display: inline-block;
+    margin-left: 20px;
+}
