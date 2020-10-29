@@ -8,14 +8,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <ul id="menuPrincipal">
-        <li><a href="../perfil/index.html">Perfil</a></li>
-        <li><a href="../resumo/index.html">Resumos</a></li>
-        <li><a href="../curso/index.html">Cursos</a></li>
-        <li><a href="../material/index.html">Material</a></li>
-        <li><a href="../materia/index.html">Matérias</a></li>
-        <li><a href="../contato/index.html">Contato</a></li>
-    </ul>
+<?php include '../_include/navPrincipal.html';?>
+
+<div id="divConteudo">
 
     <h1>Resumos</h1>
 
@@ -54,5 +49,6 @@
         </ul>
     </table><!--id="tableMateria"-->
 
+</div>
 </body>
 </html>

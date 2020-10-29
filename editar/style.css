@@ -10,3 +10,9 @@ fieldset {
 fieldset legend{
     font-weight: 900;
 }
+#inputFotoPerfil {
+    vertical-align: top;
+}
+#inputFotoCapa {
+    vertical-align: top;
+}

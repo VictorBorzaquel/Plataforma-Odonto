@@ -9,14 +9,9 @@
 </head>
 <body>
 
-    <ul id="menuPrincipal">
-        <li><a href="../perfil/index.html">Perfil</a></li>
-        <li><a href="../resumo/index.html">Resumos</a></li>
-        <li><a href="../curso/index.html">Cursos</a></li>
-        <li><a href="../material/index.html">Material</a></li>
-        <li><a href="../materia/index.html">Matérias</a></li>
-        <li><a href="../contato/index.html">Contato</a></li>
-    </ul><!--id="menuPrincipal"-->
+<?php include '../_include/navPrincipal.html';?>
+
+<div id="divConteudo">
 
     <h1>Cursos</h1>
 
@@ -36,6 +31,8 @@
             <td>Escultura de Dente</td>
         </tr>
     </table><!--id="tableComplementoAcademico"-->
+
+</div>
 
 </body>
 </html>

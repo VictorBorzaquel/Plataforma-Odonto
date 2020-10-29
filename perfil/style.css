@@ -1,6 +1,5 @@
 #sectionPerfil {
     width: 900px;
-    margin-top: 70px;
     padding: 0px;
 }
 #figurePerfil {
@@ -19,4 +18,10 @@
 .nomePerfil {
     position: relative;
     top: -150px;
+}
+.imgPerfilMenu {
+    display: inline !important;
+    width: 30px !important;
+    top: 0px !important;
+    margin: none;
 }
