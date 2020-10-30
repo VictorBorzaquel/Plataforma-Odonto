@@ -1,13 +1,8 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Criar Conta | Plataforma Odonto</title>
-    <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+<?php 
+    $pagina = "";
+    include '../_include/head.html'; 
+?>
+
     <section class="sectionBloco">
         <h1>Criar Conta</h1>
 
@@ -26,24 +21,28 @@
             <fieldset id="criarAniversario">
                 <legend>Aniversario</legend>
                 <select name="dia" id="criarDia">
-                    <option value="1">1</option>
+                    <?php 
+                        for ($i = 1; $i <= 31; $i ++) {
+                            echo "<option value='$i'>$i</option>";
+                        }
+                    ?>
                 </select>
                 <select name="mes" id="criarMes">
-                    <option value="1">Jan</option>
-                    <option value="2">Fev</option>
-                    <option value="3">Mar</option>
-                    <option value="4">Abr</option>
-                    <option value="5">Mai</option>
-                    <option value="6">Jun</option>
-                    <option value="7">Jul</option>
-                    <option value="8">Ago</option>
-                    <option value="9">Set</option>
-                    <option value="10">Out</option>
-                    <option value="11">Nov</option>
-                    <option value="12">Dez</option>
+                    <?php 
+                        $mes = array ("Jan","Fev","Mar","Abr","Mai","Jun","Jul","Ago","Set","Out","Nov","Dez");
+                        for ($i = 1; $i <= count($mes); $i ++) {
+                            $mesEscrito = $mes[$i-1];
+                            $mesNumero = $i;
+                            echo "<option value='$mesNumero'>$mesEscrito</option>";
+                        }
+                    ?>
                 </select>
                 <select name="ano" id="criarAno">
-                    <option value="1900">1900</option>
+                    <?php 
+                        for ($i = date("Y"); $i >= 1900; $i --) {
+                            echo "<option value='$i'>$i</option>";
+                        }
+                    ?>
                 </select>
             </fieldset><!--id="criarAniversario"-->
     
@@ -58,5 +57,7 @@
             <button id="buttonJaTenhoConta">Já tenho uma conta</button>
         </form><!--id="formCriar"-->
     </section>
-</body>
-</html>
+
+<?php 
+    include '../_include/footer.html';
+?>

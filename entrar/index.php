@@ -1,13 +1,7 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Plataforma Odonto</title>
-    <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+<?php 
+    $pagina = "";
+    include '../_include/head.html'; 
+?>
 
     <section class="sectionBloco">
         <div id="divLogo">
@@ -30,5 +24,6 @@
         </div><!--id="divLogIn"-->
     </section>
 
-</body>
-</html>
+<?php 
+    include '../_include/footer.html';
+?>

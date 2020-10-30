@@ -1,13 +1,9 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Editar Perfil | Plataforma Odonto</title>
-    <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+<?php 
+    $pagina = " | Perfil";
+    include '../_include/head.html'; 
+    include '../_include/navPrincipal.html';
+?>
+
     <section class="sectionBloco">
         <h1>Mudar Dados do Perfil</h1>
         <hr>
@@ -15,7 +11,7 @@
             <fieldset id="fieldsetImgPerfil">
                 <legend>Foto Perfil</legend>
                 <label for="inputFotoPerfil">
-                    <img class="imgPerfil" src="../images/fotoPerfil.png" alt="Foto de Perfil">
+                    <img class="imgPerfil" src="../_images/fotoPerfil.png" alt="Foto de Perfil">
                     <input type="file" name="fotoPerfil" id="inputFotoPerfil">
                 </label>
             </fieldset>
@@ -23,7 +19,7 @@
             <fieldset id="fieldsetImgCapa">
                 <legend>Capa Perfil</legend>
                 <label for="inputFotoCapa">
-                    <img class="imgCapa" src="../images/fotoCapa.png" alt="Capa do Perfil">
+                    <img class="imgCapa" src="../_images/fotoCapa.png" alt="Capa do Perfil">
                     <input type="file" name="fotoCapa" id="inputFotoCapa">
                 </label>
             </fieldset>
@@ -40,5 +36,6 @@
         </form>
     </section>
     
-</body>
-</html>
+<?php 
+    include '../_include/footer.html';
+?>
