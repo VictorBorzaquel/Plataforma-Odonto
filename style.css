@@ -1,4 +1,6 @@
 /*Padrão*/
+@import '_include/navPrincipal.css';
+@import '_include/post.css';
 * {
     font-family: Arial, Helvetica, sans-serif;
     list-style: none;
@@ -50,72 +52,9 @@ hr {
 }
 .sectionBloco {
     padding: 20px;
-    margin-top: 50px;
+    margin-top: 70px;
     width: 500px;
     border-radius: 15px;
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-/*Post*/
-.imgPost {
-    height: 300px;
-    width: 500px;
-}
-.articleFeed {
-    width: 500px;
-    border-radius: 15px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-    margin: auto;
-    background-color: rgb(255, 255, 255);
-}
-.articleFeed header{
-    padding: 15px 20px 5px 20px;
-}
-.articleFeed header h1{
-    font-size: 12px;
-    margin: 0px;
-}
-.articleFeed header h2{
-    font-size: 10px;
-    margin: 0px;
-}
-.inlineBlock{
-    display: inline-block;
-}
-.articleFeed footer{
-    padding: 0px 20px 5px 20px;
-}
-.sectionFeed {
-    background-color: rgba(255, 255, 255, 0);
-}
-/*Menu Principal*/
-#navMenuPrincipal {
-    position: fixed;
-    top: 0px;
-    background-color: rgba(255, 255, 255, 1);
-    text-align: center;
-    width: 100%;
-    padding: 0px;
-    height: 65px;
-    z-index: 99;
-}
-#navMenuPrincipalConteudo {
-    width: 900px;
-}
-#menuUrl {
-    display: inline-block;
-    padding: 0px;
-}
-#menuUrl li {
-    display: inline-block;
-    padding: 7px;
-    margin: 0px 1px;
-    vertical-align: middle;
-}
-#menuPesquisa {
-    display: inline-block;
-    margin-left: 20px;
-}
-.imgPerfilMenu {
-    height: 30px;
 }

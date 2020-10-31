@@ -7,7 +7,7 @@
     <section class="sectionBloco">
         <h1>Mudar Dados do Perfil</h1>
         <hr>
-        <form action="editar.php" method="post">
+        <form action="index.php" method="post">
             <fieldset id="fieldsetImgPerfil">
                 <legend>Foto Perfil</legend>
                 <label for="inputFotoPerfil">
@@ -31,7 +31,14 @@
                 </label>
             </fieldset>
 
-            <button>Voltar</button>
+            <fieldset id="fieldsetDescricaoPerfil">
+                <legend>Sua Descrição</legend>
+                <label for="inputDescricaoPerfil">
+                    <input type="text" name="descricaoPerfil" id="inputDescricaoPerfil" placeholder="Descrição do Perfil">
+                </label>
+            </fieldset>
+
+            <button><a href="../perfil/index.php">Voltar</a></button>
             <button type="submit">Salvar</button>
         </form>
     </section>

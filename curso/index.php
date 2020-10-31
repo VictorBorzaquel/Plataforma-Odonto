@@ -5,27 +5,58 @@
 ?>
 
 <div id="divConteudo">
+<section class="sectionBloco" id="sectionCurso">
+<h1>Cursos</h1>
+<table id="tableMeusCursos">
+    <tr class="categoria">
+        <th class="nomeCategoria">Expecializações</th>
+        <td>
+            <figure class="figureCurso">
+                <img src="../_images/fotoCapa.png" alt="Hipnose Clinica">
+                <figurecaption>Hipnose Clinica</figurecaption>
+            </figure> 
+        </td>
+        <td>
+            <figure class="figureCurso">
+                <img src="../_images/fotoCapa.png" alt="Armonização Facil">
+                <figurecaption>Armonização Facil</figurecaption>
+            </figure>
+        </td>
+        <td>
+            <figure class="figureCurso">
+                <img src="../_images/fotoCapa.png" alt="Buxectomia">
+                <figurecaption>Buxectomia</figurecaption>
+            </figure>
+        </td>
+    </tr>
 
-    <h1>Cursos</h1>
-
-    <table id="tableExpecializacao">
-        <h2>Expecializações</h2>
-        <tr>
-            <td>Hipnose Clinica</td>
-            <td>Armonização Facil</td>
-            <td>Buxectomia</td>
-        </tr>
-    </table><!--id="tableExpecializacao"-->
-
-    <table id="tableComplementoAcademico">
-        <h2>Complemento Academico</h2>
-        <tr>
-            <td>Anaminese</td>
-            <td>Escultura de Dente</td>
-        </tr>
-    </table><!--id="tableComplementoAcademico"-->
+    <tr class="categoria">
+    <th class="nomeCategoria">Complemento Academico</th>
+        <td>
+            <figure class="figureCurso">
+                <img src="../_images/fotoCapa.png" alt="Hipnose Clinica">
+                <figurecaption>Anaminese</figurecaption>
+            </figure> 
+        </td>
+        <td>
+            <figure class="figureCurso">
+                <img src="../_images/fotoCapa.png" alt="Armonização Facil">
+                <figurecaption>Escultura de Dente</figurecaption>
+            </figure>
+        </td>
+        <td>
+            <figure class="figureCurso">
+                <img src="../_images/fotoCapa.png" alt="Buxectomia">
+                <figurecaption>Escultura de Dente 2</figurecaption>
+            </figure>
+        </td>
+    </tr>
+</table>
 
 </div>
+</section>
+
+
 
 <?php 
     include '../_include/footer.html';
