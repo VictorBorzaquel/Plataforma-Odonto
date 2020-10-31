@@ -2,28 +2,37 @@
     $pagina = "";
     include '../_include/head.html'; 
 ?>
+<div id="content">
+    <section id="section" class="moldura feed center">
+        <div id="divLogo" class="padding">
+            <img src="../_img/Logo.png" alt="Plataforma Odonto" class="imgLogoLarge">
 
-    <section class="sectionBloco">
-        <div id="divLogo">
-            <img src="../images/Logo.png" alt="Plataforma Odonto" class="imgLogo">
-            <h2>Bem Vindo a primeira plataforma feita para você, <br>estudante de Odontologia.</h2>
+            <h2 class="descricaoMedium">
+                Bem Vindo a primeira plataforma feita para você, 
+                <br>estudante de Odontologia.
+            </h2>
+
             <hr>
         </div><!--id="divLogo"-->
         
         <div id="divLogIn">
-            <form action="entrar.php" method="POST" id="formlogIn">
+            <form class="padding" action="../feed/index.php" method="POST" id="formlogIn">
                 <input type="email" name="email" id="logInEmail" placeholder="Email">
                 <input type="password" name="senha" id="logInSenha" placeholder="Senha">
 
-                <div id="divLogInButton">
-                    <button type="submit">Entrar</button>
-                    <button>Criar Conta</button>
-                </div>
-                
+                <button type="submit">
+                    Entrar
+                </button> 
             </form><!--id="formlogIn"-->
+            <hr>
+            <a href="../criar/index.php">
+                <button>
+                    Criar Conta
+                </button>
+            </a>
         </div><!--id="divLogIn"-->
     </section>
-
+</div>
 <?php 
     include '../_include/footer.html';
 ?>

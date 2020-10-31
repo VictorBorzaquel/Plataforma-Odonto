@@ -1,32 +1,55 @@
 <?php 
     $pagina = " | Perfil";
     include '../_include/head.html'; 
-    include '../_include/navPrincipal.html';
+    include '../_include/header.html';
 ?>
 
-    <div id="divConteudo">
+<div id="content">
+    <section id="sectionPerfil" class="moldura">
+        <img class="imgCapaLarge" src="../_img/fotoCapa.png" alt="Capa do Perfil">
 
-    <section id="sectionPerfil" class="sectionBloco">
-        
-        <img class="imgCapa" src="../_images/fotoCapa.png" alt="Capa do Perfil">
-        <div id="figurePerfil">
-            <img class="imgPerfil" src="../_images/fotoPerfil.png" alt="Foto de Perfil">
-        </div>
-        <div id="dadoPerfil">
-            <h1 class="nomePerfil"><figcaption>Seu Nome</figcaption></h1>
-            <p class="descricaoPerfil">Descrição Perfil</p>
-            <h2 class="editarPerfil"><a href="../editar/index.php">Editar</a></h2>
+        <div id="divImgPerfil" >
+            <img class="imgPerfilLarge" src="../_img/fotoPerfil.png" alt="Foto de Perfil">
         </div>
         
-    </section>
-    <section  class="sectionFeed">
+        <hgroup id="dadoPerfilLarge">
+
+            <h1 class="nomePerfil">
+                Seu Nome
+            </h1><!--class="nomePerfil"-->
+
+            <p class="descricaoPerfil">
+                Descrição Perfil
+            </p><!--class="descricaoPerfil"-->
+            
+            <h2 class="editarPerfil">
+                <a href="../editar/index.php">
+                    Editar
+                </a>
+            </h2><!--class="editarPerfil"-->
+        </hgroup><!--id="dadoPerfil"-->
+        
+    </section><!--id="sectionPerfil"-->
+
+    <aside class="moldura">
+        <h1>
+            Sobre:
+        </h1>
+        <p>
+            Faculdade: Estácio
+            <br>Periodo: 6
+            <br>Projeto Cientifico: 
+        </p>
+    </aside>
+
+    <section id="sectionFeed" class="float">
         <?php 
             for ($i =1; $i <=5; $i ++) {
-                include '../_include/post.html';
+                include '../_include/resumo.html';
             }
         ?>
-    </section>
-    </div>
+    </section><!--id="sectionFeed"-->
+</div><!--id="content"-->
     
 <?php 
     include '../_include/footer.html';

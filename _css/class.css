@@ -1,0 +1,140 @@
+.inlineBlock {
+    display: inline-block;
+}
+.float {
+    float: left;
+}
+.center {
+    text-align: center;
+}
+.moldura {
+    border-radius: 15px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
+    background-color: rgb(255, 255, 255);
+}
+.feed {
+    width: 500px;
+    margin: 0px auto;
+    margin-bottom: 10px;
+}
+.padding {
+    padding: 15px 20px;
+}
+.feed>header {
+    padding: 17px 14px 3px 14px;
+}
+.feed>footer {
+    padding: 5px 15px;
+}
+
+/* PERFIL */
+.imgPerfilSmall {
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+}
+.imgPerfilMedium {
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+}
+.imgPerfilLarge {
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+}
+
+.imgCapaSmall {
+    border-radius: 15px 15px 0px 0px;
+    height: 57px;
+    width: 150px;
+}
+.imgCapaMedium {
+    border-radius: 15px 15px 0px 0px;
+    height: 171px;
+    width: 450px;
+}
+.imgCapaLarge {
+    border-radius: 15px 15px 0px 0px;
+    height: 342px;
+    width: 900px;
+}
+
+.dadoPerfilSmall {
+    vertical-align: top;
+    margin-bottom: 7px;
+}
+.dadoPerfilSmall>h1 {
+    font-size: 14px;
+}
+.dadoPerfilSmall>p {
+    font-size: 12px;
+}
+
+/* RESUMO */
+.imgResumoLarge {
+    height: 300px;
+    width: 500px;
+}
+
+.acoesResumo {
+    text-align: center;
+    margin: 7px 0px;
+}
+.acoesResumo>li {
+    display: inline;
+    margin: 0px 30px;
+}
+
+.linkResumo {
+    text-align: right;
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    height: 100%;
+    text-decoration: underline;
+}
+/* IMG */
+.imgLogoSmall {
+    height: 25px;
+    width: 75px;
+}
+.imgLogoMedium {
+    height: 50px;
+    width: 150px;
+}
+.imgLogoLarge {
+    height: 100px;
+    width: 300px;
+}
+
+.descricaoMedium {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+/* CURSOS */
+.figureCurso {
+    text-align: center;
+    margin: 0px 5px;
+}
+.figureCurso>img{
+    height: 120px;
+    width: 200px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    display: block;
+}
+.categoria {
+    display: block;
+    width: 900px;
+    margin-bottom: 10px;
+}
+.nomeCategoria {
+    display: block;
+    position: relative;
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: 24px;
+}

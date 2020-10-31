@@ -1,0 +1,59 @@
+#content {
+    margin: 50px auto 0px auto;
+    width: 900px;
+}
+
+/* NAV HEADER */
+#pageHeader {
+    background-color: #fff;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    top: 0px;
+}
+#headerNav {
+    padding: 3px 0px;
+    width: 900px;
+    text-align: center;
+}
+#headerNav>form, #headerNav>ul, #headerNav>ul>li {
+    display: inline-block;
+    vertical-align: middle;
+}
+#headerNav>ul>li {
+    margin: 0px 10px
+}
+
+/* PERFIL */
+#divImgPerfil {
+    position: absolute;
+    top: 250px;
+    width: 900px;
+    text-align: center;
+}
+#sectionPerfil {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+#dadoPerfilLarge {
+    margin-top: 55px;
+    text-align: center;
+}
+#dadoPerfilLarge h2{
+    margin-top: 10px;
+    font-size: 16px;
+}
+#dadoPerfilLarge p{
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+/* CRIAR CONTA */
+#imputNome>input {
+    width: 42%;
+}
+#criarGenero>label {
+    margin: 5px;
+    display: inline-block;
+}
